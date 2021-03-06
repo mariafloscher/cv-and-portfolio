@@ -9,40 +9,42 @@ h1,h2 {
     padding: 2px 0px;
 }
 
-#menu {
+#menu { 
+    display: flex;
+    justify-content:space-evenly;
     color: #f8f8f8;
     background-color: #202020;
-    max-width: fit-content;
+    padding: 5px 0px 5px 0px;
+    height: fit-content;
 }
 
+
 .menu-item {
-    display: inline-block;
     color: #f8f8f8;
     background-color: #202020;
     text-align: center;
+    display: inline-block;
     padding: 5px 0px 5px 0px;
     text-decoration: none;
-    max-width: fit-content;
+    width: -moz-fit-content;
 }
 
 .menu-item:hover {
     background-color: #f8f8f8;
     color: #202020;
-    max-width: max-content;
 }
 
-a.menu-link {
-    display: inline-block;
+.menu-link {
     color: #f8f8f8;
     background-color: #202020;
     text-align: center;
     padding: 5px 0px 5px 0px;
     text-decoration: none;
-    max-width: fit-content;
 }
 
-a.menu-item:hover {
+.menu-link:hover {
     background-color: #f8f8f8;
     color: #202020;
     text-decoration: none;
+    max-width: max-content;
 }
