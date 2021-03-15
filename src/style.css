@@ -1,24 +1,25 @@
 body {
     background-color: #f8f8f8;
+    font-family: "Open Sans", sans-serif;
 }
 
-h1,h2 {
-    color: #202020;
+#header {
+    background-color: #202020;
     text-align: center;
     margin: 5px auto;
     padding: 2px 0px;
 }
 
-#menu { 
+.navbar { 
     display: flex;
-    justify-content:space-evenly;
+    justify-content:end;
     color: #f8f8f8;
     background-color: #202020;  
     height: fit-content;
 }
 
 
-.menu-item {
+.nav-link {
     flex: 1 1 auto;
     padding: 5px 0;
     color: #f8f8f8;
@@ -30,21 +31,57 @@ h1,h2 {
     transition: 0.2s;
 }
 
-.menu-item:hover {
+.nav-link:hover {
     background-color: #f8f8f8;
     color: #202020;
 }
 
-.menu-link {
-    color: #f8f8f8;
-    background-color: #202020;
+.navbar li {
+    position: relative;
+    padding: 10px 0 10px 28px;
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    justify-content: end;
+}
+
+.navbar a {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 15px;
+    white-space: nowrap;
+    transition: 0.3s;
+    position: relative;
     text-align: center;
-    text-decoration: none;
 }
 
-.menu-link:hover {
-    background-color: #f8f8f8;
-    color: #202020;
+a {
     text-decoration: none;
-    max-width: max-content;
+    color: #f8f8f8;
+}
+
+.navbar-brand {
+    text-decoration: none;
+    color: #f8f8f8;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.navbar-brand:hover {
+    text-decoration: none;
+    color: #202020;
+    background-color: #f8f8f8;
+    padding: 5px;
+}
+
+.header-social-links a {
+    line-height: 0px;
+    font-size: 16px;
+}
+
+.navbar-dark .navbar-toggler {
+    color: #f8f8f8;
+    border-color:#f8f8f8;
+    background-color: #202020;
 }
