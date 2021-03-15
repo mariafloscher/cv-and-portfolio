@@ -1,5 +1,5 @@
 body {
-    background-color: #f8f8f8;
+    background-color: #202020 !important;
     font-family: "Open Sans", sans-serif;
 }
 
@@ -12,7 +12,7 @@ body {
 
 .navbar { 
     display: flex;
-    justify-content:end;
+    justify-content:flex-end;
     color: #f8f8f8;
     background-color: #202020;  
     height: fit-content;
