@@ -80,14 +80,15 @@ a {
 
 .navbar-brand:hover {
     text-decoration: none;
-    color: #202020;
-    background-color: #f8f8f8;
+    color: #f8f8f8;
+    opacity: 50%;
     padding: 5px;
 }
 
 .header-social-links a {
     line-height: 0px;
     font-size: 16px;
+    color: #f8f8f8;
 }
 
 .navbar-dark .navbar-toggler {
@@ -98,4 +99,16 @@ a {
 
 #name {
     font-size: 20px;
+}
+
+#bar-logo {
+    max-width:100%;
+    max-height:100%;
+    opacity: 100%;
+    padding: 5px 15px 0px 5px;
+    color: #f8f8f8;
+}
+
+#bar-logo:hover {
+    opacity: 50%;
 }
