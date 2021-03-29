@@ -18,6 +18,9 @@ body {
     height: fit-content;
 }
 
+.navbar-collapse {
+    flex-grow: 0;
+}
 
 .nav-link {
     flex: 1 1 auto;
