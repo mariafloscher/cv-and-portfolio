@@ -112,3 +112,56 @@ a {
 #bar-logo:hover {
     opacity: 50%;
 }
+
+
+#hero .container {
+    padding-top: 200px;
+    position: relative;
+    text-align: center;
+    color: #f8f8f8;
+}
+
+#hero h3 {
+   color: #f8f8f8;
+   opacity: 75%;
+   font-weight: 300;
+}
+#hero h2 {
+    color: #f8f8f8;
+    font-weight: 400;
+    font-size: 30px;
+ }
+
+@media (max-width: 992px){
+    #hero .container {
+    padding-top: 100px;
+    max-width: 900px;
+}
+
+@media (max-width: 768px) {
+    .container, .container-md, .container-sm {
+    max-width: 720px;
+}  #hero .container {
+    padding-top: 150px;
+}
+}
+}
+
+.hero-links a {
+    display: inline-block;
+    text-align: center;
+    margin: 20px;
+    padding: 5px;
+    min-height: 0px;
+    min-width: 0px;
+    width: 150px;
+    color: #f8f8f8;
+    text-decoration: none;
+}
+
+.hero-links a:hover {
+    background-color: #f8f8f8;
+    text-decoration: none;
+    color: #202020;
+}
+
