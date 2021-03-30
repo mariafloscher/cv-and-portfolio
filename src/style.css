@@ -1,6 +1,5 @@
 body {
     background-color: #202020 !important;
-    font-family: 'Poppins', sans-serif;
 }
 
 #header {
@@ -16,6 +15,7 @@ body {
     color: #f8f8f8;
     background-color: #202020;  
     height: fit-content;
+    font-family: 'Poppins', sans-serif;
 }
 
 .navbar-collapse {
@@ -106,22 +106,22 @@ a {
 #hero .container {
     padding-top: 200px;
     position: relative;
+    margin: 0 auto;
     text-align: center;
     color: #f8f8f8;
 }
 
-#hero h3 {
-   color: #f8f8f8;
-   opacity: 75%;
-   font-weight: 300;
+#hero h1 {
+    padding: 0 auto;
 }
+
 #hero h2 {
     color: #f8f8f8;
     font-weight: 400;
     font-size: 30px;
- }
+}
 
- 
+
 .hero-links a {
     display: inline-block;
     text-align: center;
@@ -133,6 +133,7 @@ a {
     color: #f8f8f8;
     text-decoration: none;
     font-size: 15px;
+    font-family: 'Poppins', sans-serif;
     transition: 0.3s;
 }
 
@@ -150,9 +151,15 @@ a {
 
 @media (max-width: 768px) {
     .container, .container-md, .container-sm {
-    max-width: 720px;
+    max-width: 600px;
 }  #hero .container {
     padding-top: 150px;
+}
+#hero h2 {
+    font-size: 24px;
+}
+#hero a {
+    display: block;
 }
 }
 }
