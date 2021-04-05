@@ -54,7 +54,7 @@ a {
     color: #f8f8f8;
 }
 
-#mail-link:hover {
+.mail-link:hover {
     color: #f8f8f8;
     opacity: 50%;
 }
@@ -195,4 +195,12 @@ a {
 
 .content p {
     text-align: justify;
+}
+
+footer {
+   font-size: 12px;
+   color: #f8f8f8;
+   opacity: 75%;
+   background-color: #202020;
+   padding: 20px;
 }
