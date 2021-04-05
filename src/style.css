@@ -54,6 +54,11 @@ a {
     color: #f8f8f8;
 }
 
+#mail-link:hover {
+    color: #f8f8f8;
+    opacity: 50%;
+}
+
 .navbar-brand {
     text-decoration: none;
     color: #f8f8f8;
@@ -121,7 +126,7 @@ a {
 }
 
 
-.hero-links a {
+.links a {
     display: inline-block;
     text-align: center;
     margin: 20px;
@@ -136,7 +141,7 @@ a {
     transition: 0.3s;
 }
 
-.hero-links a:hover {
+.links a:hover {
     background-color: #f8f8f8;
     text-decoration: none;
     color: #202020;
@@ -190,9 +195,4 @@ a {
 
 .content p {
     text-align: justify;
-}
-
-#portfolio-additional-text {
-line-height: 5px !important;
-font-size: 10px !important;
 }
