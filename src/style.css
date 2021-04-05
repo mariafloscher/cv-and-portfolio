@@ -147,7 +147,7 @@ a {
     padding-top: 100px;
     max-width: 900px;
     }
-    #about {
+    .content {
         padding-top: 50px;
         display: block;
     }
@@ -165,13 +165,13 @@ a {
 #hero a {
     display: block;
 }
-#about {
+.content {
     display: block;
 
 }
 }
 
-#about {
+.content {
     padding-top: 100px;
     display: flex;
     position: relative;
@@ -188,6 +188,11 @@ a {
     border-style: solid;
 }
 
-#about p {
+.content p {
     text-align: justify;
+}
+
+#portfolio-additional-text {
+line-height: 5px !important;
+font-size: 10px !important;
 }
